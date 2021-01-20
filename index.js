@@ -1,7 +1,7 @@
 function superbowlWin(array) {
-  let year
+  // let year
   array.find(function(obj) {
-    if (obj.result === "W") year = obj.year
+    if (obj.result === "W") return obj.year
   })
-  return year
+  // return year
 }
